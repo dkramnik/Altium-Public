@@ -1,0 +1,11 @@
+*.*#*
+*.raw
+*.op.raw
+*.log
+*.net
+*.dsnwrk
+*.PrjPcbStructure
+*.SchDocPreview
+__Previews/
+History/
+Project Logs*/
