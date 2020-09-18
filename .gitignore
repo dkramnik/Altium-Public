@@ -9,3 +9,6 @@
 __Previews/
 History/
 Project Logs*/
+
+*.html
+*.drc
