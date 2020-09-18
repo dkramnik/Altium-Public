@@ -1,0 +1,526 @@
+*************************************************************
+FileName = eos26_motherboard_basic.GBR
+AutoAperture = True
+*************************************************************
+Generating : Top Layer
+      File : eos26_motherboard_basic_Copper_Signal_Top.gbr
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D10
+    D11
+    D12
+    D13
+    D14
+    D15
+    D16
+    D17
+    D18
+    D19
+    D20
+    D21
+    D22
+    D23
+    D24
+    D25
+    D26
+    D27
+    D28
+    D29
+*************************************************************
+
+*************************************************************
+Generating : MidLayer 1
+      File : eos26_motherboard_basic_Copper_Signal_1.gbr
+
+    Adding Layer      : MidLayer 1
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D18
+    D19
+    D21
+    D22
+    D23
+    D24
+    D25
+    D26
+    D27
+    D28
+    D29
+    D30
+*************************************************************
+
+*************************************************************
+Generating : MidLayer 2
+      File : eos26_motherboard_basic_Copper_Signal_2.gbr
+
+    Adding Layer      : MidLayer 2
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D17
+    D18
+    D19
+    D21
+    D22
+    D23
+    D24
+    D25
+    D26
+    D27
+    D28
+    D29
+    D30
+*************************************************************
+
+*************************************************************
+Generating : Bottom Layer
+      File : eos26_motherboard_basic_Copper_Signal_Bot.gbr
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D16
+    D17
+    D18
+    D19
+    D20
+    D21
+    D22
+    D23
+    D24
+    D25
+    D26
+    D27
+    D28
+    D29
+    D31
+    D32
+    D33
+    D34
+    D35
+    D36
+    D37
+    D38
+    D39
+    D40
+    D41
+    D42
+    D43
+    D44
+    D45
+    D46
+    D47
+    D48
+*************************************************************
+
+*************************************************************
+Generating : Bottom Pad Master
+      File : eos26_motherboard_basic_Pads_Bot.gbr
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D18
+    D19
+    D20
+    D21
+    D22
+    D23
+    D24
+    D25
+    D31
+    D32
+    D33
+    D34
+    D35
+    D36
+    D37
+    D38
+    D39
+    D40
+    D41
+    D42
+    D43
+    D44
+    D45
+    D46
+*************************************************************
+
+*************************************************************
+Generating : Top Pad Master
+      File : eos26_motherboard_basic_Pads_Top.gbr
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D10
+    D11
+    D12
+    D13
+    D14
+    D15
+    D18
+    D19
+    D20
+    D21
+    D22
+    D23
+    D24
+    D25
+*************************************************************
+
+*************************************************************
+Generating : Bottom Overlay
+      File : eos26_motherboard_basic_Legend_Bot.gbr
+
+    Adding Layer      : Bottom Overlay
+
+
+Used DCodes :
+    D49
+    D50
+    D51
+    D52
+    D53
+*************************************************************
+
+*************************************************************
+Generating : Bottom Solder
+      File : eos26_motherboard_basic_Soldermask_Bot.gbr
+
+    Adding Layer      : Bottom Solder
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D20
+    D21
+    D28
+    D35
+    D36
+    D37
+    D38
+    D54
+    D55
+    D56
+    D57
+    D58
+    D59
+    D60
+    D61
+    D62
+    D63
+    D64
+    D65
+    D66
+    D67
+    D68
+    D69
+    D70
+    D71
+    D72
+    D73
+*************************************************************
+
+*************************************************************
+Generating : Bottom Paste
+      File : eos26_motherboard_basic_Paste_Bot.gbr
+
+    Adding Layer      : Bottom Paste
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D31
+    D32
+    D33
+    D34
+    D35
+    D36
+    D38
+    D39
+    D40
+    D41
+    D42
+    D43
+    D44
+    D45
+    D46
+*************************************************************
+
+*************************************************************
+Generating : Top Overlay
+      File : eos26_motherboard_basic_Legend_Top.gbr
+
+    Adding Layer      : Top Overlay
+
+
+Used DCodes :
+    D50
+    D51
+    D52
+    D53
+    D74
+*************************************************************
+
+*************************************************************
+Generating : Top Paste
+      File : eos26_motherboard_basic_Paste_Top.gbr
+
+    Adding Layer      : Top Paste
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D10
+    D11
+    D12
+    D13
+    D14
+    D15
+*************************************************************
+
+*************************************************************
+Generating : Top Solder
+      File : eos26_motherboard_basic_Soldermask_Top.gbr
+
+    Adding Layer      : Top Solder
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D10
+    D11
+    D12
+    D13
+    D14
+    D15
+    D20
+    D21
+    D28
+    D66
+    D67
+    D68
+    D69
+    D70
+    D71
+    D72
+    D73
+*************************************************************
+
+*************************************************************
+Generating : Keep-Out Layer
+      File : eos26_motherboard_basic_Keep-out.gbr
+
+    Adding Layer      : Keep-Out Layer
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Top 3D Body
+      File : eos26_motherboard_basic_Mechanical_13.gbr
+
+    Adding Layer      : Top 3D Body
+
+
+Used DCodes :
+    D49
+    D52
+*************************************************************
+
+*************************************************************
+Generating : Bottom Component Center
+      File : eos26_motherboard_basic_Mechanical_24.gbr
+
+    Adding Layer      : Bottom Component Center
+
+
+Used DCodes :
+    D49
+*************************************************************
+
+*************************************************************
+Generating : Bottom Courtyard
+      File : eos26_motherboard_basic_Mechanical_21.gbr
+
+    Adding Layer      : Bottom Courtyard
+
+
+Used DCodes :
+    D49
+    D52
+    D75
+*************************************************************
+
+*************************************************************
+Generating : Bottom Assembly
+      File : eos26_motherboard_basic_Mechanical_20.gbr
+
+    Adding Layer      : Bottom Assembly
+
+
+Used DCodes :
+    D52
+*************************************************************
+
+*************************************************************
+Generating : Top Assembly
+      File : eos26_motherboard_basic_Mechanical_5.gbr
+
+    Adding Layer      : Top Assembly
+
+
+Used DCodes :
+    D52
+*************************************************************
+
+*************************************************************
+Generating : Top Component Center
+      File : eos26_motherboard_basic_Mechanical_16.gbr
+
+    Adding Layer      : Top Component Center
+
+
+Used DCodes :
+    D49
+*************************************************************
+
+*************************************************************
+Generating : Mechanical 1
+      File : eos26_motherboard_basic_Mechanical_1.gbr
+
+    Adding Layer      : Mechanical 1
+
+
+Used DCodes :
+    D49
+    D74
+    D76
+*************************************************************
+
+*************************************************************
+Generating : Bottom 3D Body
+      File : eos26_motherboard_basic_Mechanical_23.gbr
+
+    Adding Layer      : Bottom 3D Body
+
+
+Used DCodes :
+    D49
+    D52
+*************************************************************
+
+*************************************************************
+Generating : Top Courtyard
+      File : eos26_motherboard_basic_Mechanical_15.gbr
+
+    Adding Layer      : Top Courtyard
+
+
+Used DCodes :
+    D49
+    D52
+    D75
+*************************************************************
+
+*************************************************************
+Generating : Profile
+      File : eos26_motherboard_basic_Profile.gbr
+
+
+Used DCodes :
+    D77
+*************************************************************
+
+*************************************************************
+Generating : Non-plated through-hole drill file
+      File : eos26_motherboard_basic_NPTH_Drill.gbr
+
+
+Used DCodes :
+    D78
+*************************************************************
+
+*************************************************************
+Generating : Plated through-hole drill file
+      File : eos26_motherboard_basic_PTH_Drill.gbr
+
+
+Used DCodes :
+    D79
+    D80
+    D81
+    D82
+    D83
+    D84
+    D85
+    D86
+    D87
+    D88
+    D89
+    D90
+    D91
+    D92
+*************************************************************
+
+*************************************************************
+Generating : Drill Drawing
+      File : eos26_motherboard_basic_Drawing_1.gbr
+
+    Adding Drill Pair : Top Layer-Bottom Layer
+
+    Adding Layer      : Drill Drawing
+
+
+Used DCodes :
+    D94
+    D95
+    D96
+*************************************************************
+
+*************************************************************
+Generating : Drill Guide
+      File : eos26_motherboard_basic_Drillmap_1.gbr
+
+    Adding Drill Pair : Top Layer-Bottom Layer
+
+    Adding Layer      : Drill Guide
+
+
+Used DCodes :
+    D94
+*************************************************************
+

@@ -1,0 +1,10 @@
+Output: Generates pick and place files
+Type  : Pick Place
+From  : Variant [[No Variations]] of Project [eos26_motherboard_basic.PrjPcb]
+   Generated File[Pick Place for eos26_motherboard_basic.txt]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 8:25:39 PM On 9/17/2020
