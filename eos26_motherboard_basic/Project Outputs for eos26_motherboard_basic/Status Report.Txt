@@ -1,10 +1,13 @@
-Output: Generates pick and place files
-Type  : Pick Place
-From  : Variant [[No Variations]] of Project [eos26_motherboard_basic.PrjPcb]
-   Generated File[Pick Place for eos26_motherboard_basic.txt]
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [eos26_motherboard_basic.PrjPcb]
+   Generated File[eos26_motherboard_basic-Plated.TXT]
+   Generated File[eos26_motherboard_basic-NonPlated.TXT]
+   Generated File[eos26_motherboard_basic.LDP]
+   Generated File[eos26_motherboard_basic.DRR]
 
 
-Files Generated   : 1
+Files Generated   : 4
 Documents Printed : 0
 
-Finished Output Generation At 8:25:39 PM On 9/17/2020
+Finished Output Generation At 2:10:59 AM On 9/19/2020

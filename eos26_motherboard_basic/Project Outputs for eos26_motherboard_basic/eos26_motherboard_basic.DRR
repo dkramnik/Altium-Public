@@ -1,0 +1,25 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: eos26_motherboard_basic.PcbDoc   9/19/2020  2:10:58 AM
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII Plated RoundHoles File : eos26_motherboard_basic-Plated.TXT
+ASCII Non-Plated RoundHoles File : eos26_motherboard_basic-NonPlated.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      8mil (0.2mm)                                              Round             3         PTH        0.00inch (0.00mm)
+T2      14mil (0.356mm)                                           Round             233       PTH        0.00inch (0.00mm)
+T3      28mil (0.711mm)                                           Round             6         PTH        0.00inch (0.00mm)
+T4      32mil (0.813mm)                                           Round             172       PTH        0.00inch (0.00mm)
+T5      35mil (0.89mm)                                            Round             2         PTH        0.00inch (0.00mm)
+T6      40mil (1.016mm)                                           Round             35        PTH        0.00inch (0.00mm)
+T7      40mil (1.02mm)                                            Round             2         PTH        0.00inch (0.00mm)
+T8      52mil (1.321mm)                                           Round             4         PTH        0.00inch (0.00mm)
+T9      150mil (3.81mm)                                           Round             4         PTH        0.00inch (0.00mm)
+T10     257mil (6.528mm)                                          Round             4         PTH        0.00inch (0.00mm)
+T11     40mil (1.02mm)                                            Round             14        NPTH       0.00inch (0.00mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              479
+
+Total Processing Time (hh:mm:ss) : 00:00:01

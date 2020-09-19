@@ -1,0 +1,3 @@
+Layer Pairs Export File for PCB: C:\Users\Admin\Documents\GitHub\Altium-Public\eos26_motherboard_basic\eos26_motherboard_basic.PcbDoc
+LayersSetName=Top_Bot_Plated_Thru_Holes|DrillFile=eos26_motherboard_basic-plated.txt|DrillLayers=gtl,g1,g2,gbl
+LayersSetName=Top_Bot_NonPlated_Thru_Holes|DrillFile=eos26_motherboard_basic-nonplated.txt|DrillLayers=gtl,g1,g2,gbl
