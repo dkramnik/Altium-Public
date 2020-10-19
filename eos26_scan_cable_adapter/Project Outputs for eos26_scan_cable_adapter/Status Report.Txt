@@ -1,0 +1,13 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [eos26_scan_cable_adapter.PrjPcb]
+   Generated File[eos26_scan_cable_adapter.TXT]
+   Generated File[eos26_scan_cable_adapter.DRL]
+   Generated File[eos26_scan_cable_adapter.LDP]
+   Generated File[eos26_scan_cable_adapter.DRR]
+
+
+Files Generated   : 4
+Documents Printed : 0
+
+Finished Output Generation At 12:39:27 AM On 10/19/2020
