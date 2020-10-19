@@ -1,34 +1,13 @@
-Output: Gerber Files
-Type  : Gerber
-From  : Variant [[No Variations]] of Project [eos26_motherboard_heater_adapter_banana.PrjPcb]
-   Generated File[eos26_motherboard_heater_adapter_banana.GTO]
-   Generated File[eos26_motherboard_heater_adapter_banana.GTP]
-   Generated File[eos26_motherboard_heater_adapter_banana.GTS]
-   Generated File[eos26_motherboard_heater_adapter_banana.GTL]
-   Generated File[eos26_motherboard_heater_adapter_banana.GBL]
-   Generated File[eos26_motherboard_heater_adapter_banana.GBS]
-   Generated File[eos26_motherboard_heater_adapter_banana.GBP]
-   Generated File[eos26_motherboard_heater_adapter_banana.GBO]
-   Generated File[eos26_motherboard_heater_adapter_banana.GM1]
-   Generated File[eos26_motherboard_heater_adapter_banana.GM5]
-   Generated File[eos26_motherboard_heater_adapter_banana.GM13]
-   Generated File[eos26_motherboard_heater_adapter_banana.GM15]
-   Generated File[eos26_motherboard_heater_adapter_banana.GM16]
-   Generated File[eos26_motherboard_heater_adapter_banana.GM20]
-   Generated File[eos26_motherboard_heater_adapter_banana.GM21]
-   Generated File[eos26_motherboard_heater_adapter_banana.GM23]
-   Generated File[eos26_motherboard_heater_adapter_banana.GM24]
-   Generated File[eos26_motherboard_heater_adapter_banana.GKO]
-   Generated File[eos26_motherboard_heater_adapter_banana.GPT]
-   Generated File[eos26_motherboard_heater_adapter_banana.GPB]
-   Generated File[eos26_motherboard_heater_adapter_banana.GD1]
-   Generated File[eos26_motherboard_heater_adapter_banana.GG1]
-   Generated File[eos26_motherboard_heater_adapter_banana.RUL]
-   Generated File[eos26_motherboard_heater_adapter_banana.EXTREP]
-   Generated File[eos26_motherboard_heater_adapter_banana.REP]
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [eos26_motherboard_heater_adapter_banana.PrjPcb]
+   Generated File[eos26_motherboard_heater_adapter_banana.TXT]
+   Generated File[eos26_motherboard_heater_adapter_banana.DRL]
+   Generated File[eos26_motherboard_heater_adapter_banana.LDP]
+   Generated File[eos26_motherboard_heater_adapter_banana.DRR]
 
 
-Files Generated   : 25
+Files Generated   : 4
 Documents Printed : 0
 
-Finished Output Generation At 10:03:11 PM On 10/18/2020
+Finished Output Generation At 11:09:07 PM On 10/18/2020
