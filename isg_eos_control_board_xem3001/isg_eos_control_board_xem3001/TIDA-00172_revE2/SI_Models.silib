@@ -1,0 +1,29 @@
+@IDBM:SIE_BAS40_dio.mac
+###############################################################################
+#
+#  Header     : 1.0;
+#  Filename   : SIE_BAS40_dio.mac; 
+#  FileRev    : 1;
+#  Date       : 05 JAN 1998;
+#  Permission : ;
+#  Simulator  : 4;
+#  Modeltype  : 200;
+#  Technology : ;
+#  Changes    : None;
+#  Notes      : None;
+#
+###############################################################################
+DIODE SIE_BAS40
+BV	4.00E+01
+CJ0	3.00E-12
+EG	6.80E-01
+FC	5.00E-01
+IBV	1.00E-07
+IS	8.00E-09
+M	4.20E-01
+N	1.04E+00
+RS	7.80E+00
+TT	2.50E-11
+VJ	4.00E-01
+XTI	1.80E+00
+END
