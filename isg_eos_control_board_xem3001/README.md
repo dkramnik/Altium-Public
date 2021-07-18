@@ -2,19 +2,19 @@
 
 When the FPGA is powered but the bitfile is not loaded, FPGA pins are low with weak pulldowns. The desired behavior in this state is: host board powered ON, PLL power ON, level shifter output enable de-asserrted (!OE signal high). This requires some rework:
 
-Move R18 (100k pulldown) to R7 (pullup to PP_3V3_IO_FPGA):
+<h2>1. Move R18 (100k pulldown) to R7 (pullup to PP_3V3_IO_FPGA):</h2>
 
 ![](doc/PCBA_R18_R7_rework.jpg)
 
-Move R21 (330R pulldown) to R20 (pullup to PP_3V3_IO_FPGA):
+<h2>2. Move R21 (330R pulldown) to R20 (pullup to PP_3V3_IO_FPGA):</h2>
 
 ![](doc/PCBA_R21_R20_rework.jpg)
 
-Move R23 (330R pulldown) to R22 (pullup to PP_3V3_IO_FPGA):
+<h2>3. Move R23 (330R pulldown) to R22 (pullup to PP_3V3_IO_FPGA):</h2>
 
 ![](doc/PCBA_R23_R22_rework.jpg)
 
-After rework, install the following jumper configuration:
+<h2>After rework, install the following jumper configuration:</h2>
 
 ![](doc/PCBA_overall_jumper_configuration.jpg)
 
@@ -31,11 +31,11 @@ Optional:
 
 P6: LED_EN short circuit.
 
-Explanation:
+<h2>Explanation:<h2>
 
 When the FPGA is plugged in to a computer, the OK board's LDO drives the PP_P3V3_IO_FPGA power rail high. This pulls up the enable signals on the PLL and host board load switches, allowing through power rails generated from the external power supply via LDOs U3 and U6 on the control board. The FPGA IO signals do not control power to the host board or PLL, so you can test/debug these circuits without needed to run a test script that load a bitfile onto the FPGA.
 
-DVDD IO Voltage Adjustment:
+<h2>DVDD IO Voltage Adjustment:<h2>
 
 With the FPGA plugged in to a USB port and the power supplies powered, adjust potentiometer R4 until you obtain 1.8V (or other desired DVDD voltage) across TP2 ("DVDD") and TP3 ("GND").
 
