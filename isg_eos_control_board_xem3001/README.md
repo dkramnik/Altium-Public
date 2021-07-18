@@ -4,19 +4,19 @@ When the FPGA is powered but the bitfile is not loaded, FPGA pins are low with w
 
 Move R18 (100k pulldown) to R7 (pullup to PP_3V3_IO_FPGA):
 
-(doc/PCBA_R18_R7_rework.jpg)
+![](doc/PCBA_R18_R7_rework.jpg)
 
 Move R21 (330R pulldown) to R20 (pullup to PP_3V3_IO_FPGA):
 
-(doc/PCBA_R21_R20_rework.jpg)
+![](doc/PCBA_R21_R20_rework.jpg)
 
 Move R23 (330R pulldown) to R22 (pullup to PP_3V3_IO_FPGA):
 
-(doc/PCBA_R23_R22_rework.jpg)
+![](doc/PCBA_R23_R22_rework.jpg)
 
 After rework, install the following jumper configuration:
 
-(doc/PCBA_overall_jumper_configuration.jpg)
+![](doc/PCBA_overall_jumper_configuration.jpg)
 
 P1: 5V0_LDO_TO_PLL short circuit.
 P4: FPGA_CONTROL_!OE short circuit.
