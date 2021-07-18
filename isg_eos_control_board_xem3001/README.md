@@ -31,11 +31,11 @@ Optional:
 
 P6: LED_EN short circuit.
 
-<h2>Explanation:<h2>
+<h2>Explanation:</h2>
 
 When the FPGA is plugged in to a computer, the OK board's LDO drives the PP_P3V3_IO_FPGA power rail high. This pulls up the enable signals on the PLL and host board load switches, allowing through power rails generated from the external power supply via LDOs U3 and U6 on the control board. The FPGA IO signals do not control power to the host board or PLL, so you can test/debug these circuits without needed to run a test script that load a bitfile onto the FPGA.
 
-<h2>DVDD IO Voltage Adjustment:<h2>
+<h2>DVDD IO Voltage Adjustment:</h2>
 
 With the FPGA plugged in to a USB port and the power supplies powered, adjust potentiometer R4 until you obtain 1.8V (or other desired DVDD voltage) across TP2 ("DVDD") and TP3 ("GND").
 
