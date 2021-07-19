@@ -60,6 +60,8 @@ Follow these instructions in order. In order to prevent damage to the chips, you
 
 <h2>Adjustments After Installing Chip Board</h2>
 
+Note: It is advised to power down the host board when installing a chip board. Press the chip board into the PGA socket by pushing on the 3D-printed cover rather than the pins.
+
 [1] Install the chip board in the PGA socket and make the following connections:
 - SMA cables from X3 ("OUT2_P") and X5 ("OUT2_N") on the PLL board to J1 ("HS_CLK_P") and J3 ("HS_CLK_N") on the chip board. It doesn't matter which way you connect the cables, the clock phase will just shift by 180 degrees.
 - 20-pin 2x10 0.05" (1.27mm) cable from JP2 ("BANK A") on the FPGA control board to J12 on the chip board, via "EOS Cable Adapter Type G Odd" adapter board.
@@ -71,7 +73,7 @@ Follow these instructions in order. In order to prevent damage to the chips, you
 
 ![](doc/PCBA_measure_adjust_IREF.jpg)
 
-[3] Probe between TP35 ("SHUNT") and TP30 ("OUT"). Adjust potentiometer R13 (labeled "CML2CMOS IBIAS") to set the voltage across the CML2CMOS IBIAS shunt to 50mV. Note: this bias current increases when the CML2CMOS clock receiver is enabled (via scan chain). If scan chain tests work but the heater and ADC self-tests do not work, then investigate this bias current and make sure it increases when you think you are enabling the CML2CMOS clock receiver. Also try increasing the bias current if it was set lower.
+[3] Probe between TP35 ("SHUNT") and TP30 ("OUT"). Adjust potentiometer R13 (labeled "CML2CMOS IBIAS") to set the voltage across the CML2CMOS IBIAS shunt to 50mV. Note: this bias current decreases (to around 30mV) when the CML2CMOS clock receiver is enabled (via scan chain). If scan chain tests work but the heater and ADC self-tests do not work, then investigate this bias current and make sure it decreases when you think you are enabling the CML2CMOS clock receiver. Also try increasing the bias current if it was set lower.
 
 ![](doc/PCBA_measure_adjust_CML2CMOS_IBIAS.jpg)
 
@@ -83,10 +85,34 @@ Follow these instructions in order. In order to prevent damage to the chips, you
 
 ![](doc/PCBA_measure_adjust_IBIAS_RX2.jpg)
 
+<h2>Final Checkout</h2>
 
+The host board is now ready for use. 
 
+Source the sourceme and cd to the following directory:
 
+[experimental_dir]/chips/eos34_dk/
 
+In homebrew ipython, run the following scripts:
 
+experiments/bringup/scan_chain_test.py
+experiments/bringup/equip_bringup_tuning_afe.py
 
+The scan chain test should display a PASS result for all 3 scan chains:
 
+-------- Summary of the scan test --------
+TX:  SCAN PASSES
+RX:  SCAN PASSES
+EQuIP:  SCAN PASSES
+
+The tuning AFE bringup script should display downward-sloping ADC calibration curves. Here is an example of what the correct output looks like:
+
+![](doc/TEST_adc_bringup_good.jpg)
+
+If the scan chain test passes, but the ADC test returns constant values for all IDAC settings, this indicates a bad connection related to clocking. Here is an example of what a bad output looks like:
+
+![](doc/TEST_adc_bringup_bad.jpg)
+
+If issues are encountered but all of the bias settings above are correct, reseating the chip board in the PGA socket sometimes resolves the problem.
+
+Sit back, relax, and enjoy your new EOS34 host board!
