@@ -64,8 +64,10 @@ Note: It is advised to power down the host board when installing a chip board. P
 
 [1] Install the chip board in the PGA socket and make the following connections:
 - SMA cables from X3 ("OUT2_P") and X5 ("OUT2_N") on the PLL board to J1 ("HS_CLK_P") and J3 ("HS_CLK_N") on the chip board. It doesn't matter which way you connect the cables, the clock phase will just shift by 180 degrees.
-- 20-pin 2x10 0.05" (1.27mm) cable from JP2 ("BANK A") on the FPGA control board to J12 on the chip board, via "EOS Cable Adapter Type G Odd" adapter board.
-- 20-pin 2x10 0.05" (1.27mm) cable from JP4 ("BANK B") on the FPGA control board to J10 on the chip board, via "EOS Cable Adapter Type G Odd" adapter board.
+- 16-pin 2x8 0.05" (1.27mm) cable from JP2 ("BANK A") on the FPGA control board to J12 on the chip board, via "EOS Cable Adapter Type G Odd" adapter board.
+- 16-pin 2x8 0.05" (1.27mm) cable from JP4 ("BANK B") on the FPGA control board to J10 on the chip board, via "EOS Cable Adapter Type G Odd" adapter board.
+
+Digikey P/N for the cables is: SAM8783-ND (MPN FFSD-08-D-24.00-01-N).
 
 ![](doc/ASSY_board_to_board_cables.jpg)
 
