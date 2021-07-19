@@ -4,7 +4,13 @@ Follow these instructions in order. In order to prevent damage to the chips, you
 
 <h2>Required Rework</h2>
 
-todo, need to enable all LDOs
+[1] Short the highlighted pullups (rightmost unpopulated resistors under the LDOs when looking from the bottom) to enable all of the positive LDOs:
+
+![](doc/PCBA_rework_LDO_pullups.jpg)
+
+[2] Short the highlighted pullup (R22) so that the CML2CMOS IBIAS potentiometer adjusts the voltage between 0V and VDD instead of only being able to pull down:
+
+![](doc/PCBA_rework_cml2cmos_ibias.jpg)
 
 <h2>Adjustments Before Installing Chip Board</h2>
 
