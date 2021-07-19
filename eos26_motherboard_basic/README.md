@@ -65,15 +65,15 @@ todo, need to enable all LDOs
 
 ![](doc/PCBA_measure_adjust_IREF.jpg)
 
-CML2CMOS IBIAS (set to 50mV with chip in default state). If scan chain tests work but the heater and ADC self-tests do not work, then investigate this bias current and make sure it increases when you think you are enabling the CML2CMOS clock receiver. Also try increasing the bias current if it was set lower.
+[3] Probe between TP35 ("SHUNT") and TP30 ("OUT"). Adjust potentiometer R13 (labeled "CML2CMOS IBIAS") to set the voltage across the CML2CMOS IBIAS shunt to 50mV. Note: this bias current increases when the CML2CMOS clock receiver is enabled (via scan chain). If scan chain tests work but the heater and ADC self-tests do not work, then investigate this bias current and make sure it increases when you think you are enabling the CML2CMOS clock receiver. Also try increasing the bias current if it was set lower.
 
 ![](doc/PCBA_measure_adjust_CML2CMOS_IBIAS.jpg)
 
-IBIAS RX1 (turn all the way CCW to disable and set to zero)
+[4] Probe between TP32 ("SHUNT") and TP31 ("OUT"). Turn potentiometer R14 (labeled "IBIAS RX1") all the way counterclockwise to set the RX1 bias current to zero and disable it. This is part of the cryo receiver test site. The potentiometer does not have a hard stop, so adjust until you see a few mV on the multimeter or less and hear a faint clicking sound.
 
 ![](doc/PCBA_measure_adjust_IBIAS_RX1.jpg)
 
-IBIAS RX2 (turn all the way CCW to disable and set to zero)
+[5] Probe between TP34 ("SHUNT") and TP33 ("OUT). Turn potentiometer R15 (labeled "IBIAS RX2") all the way counterclockwise to set the RX2 bias current to zero and disable it. This is part of the cryo receiver test site. The potentiometer does not have a hard stop, so adjust until you see a few mV on the multimeter or less and hear a faint clicking sound.
 
 ![](doc/PCBA_measure_adjust_IBIAS_RX2.jpg)
 
