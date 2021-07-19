@@ -36,15 +36,15 @@ todo, need to enable all LDOs
 
 ![](doc/PCBA_measure_adjust_VPD.jpg)
 
-[8] Probe between TP20 ("VREF0") and TP29 ("GND"). Adjust potentiometer R12 (also labeled "VREF0") to set VREF0 to 0.30V. This sets an interval voltage reference in the source ring tuning controller ADC.
+[8] Probe between TP20 ("VREF0") and TP29 ("GND"). Adjust potentiometer R12 (also labeled "VREF0") to set VREF0 to 0.30V. This sets an internal voltage reference in the source ring tuning controller ADC.
 
 ![](doc/PCBA_measure_adjust_VREF0.jpg)
 
-[9] Probe between TP21 ("VREF1") and TP29 ("GND"). Adjust potentiometer R11 (also labeled "VREF1") to set VREF1 to 0.60V. This sets an interval voltage reference in the source ring tuning controller ADC.
+[9] Probe between TP21 ("VREF1") and TP29 ("GND"). Adjust potentiometer R11 (also labeled "VREF1") to set VREF1 to 0.60V. This sets an internal voltage reference in the source ring tuning controller ADC.
 
 ![](doc/PCBA_measure_adjust_VREF1.jpg)
 
-[10] Probe between TP25 ("VREF2") and TP29 ("GND"). Adjust potentiometer R10 (also labeled "VREF2") to set VREF2 to 0.90V. This sets an interval voltage reference in the source ring tuning controller ADC.
+[10] Probe between TP25 ("VREF2") and TP29 ("GND"). Adjust potentiometer R10 (also labeled "VREF2") to set VREF2 to 0.90V. This sets an internal voltage reference in the source ring tuning controller ADC.
 
 ![](doc/PCBA_measure_adjust_VREF2.jpg)
 
@@ -52,19 +52,32 @@ todo, need to enable all LDOs
 
 ![](doc/PCBA_install_jumpers_for_eos34.jpg)
 
-
 <h2>Adjustments After Installing Chip Board</h2>
 
+[1] Install the chip board in the PGA socket and make the following connections:
+- SMA cables from X3 ("OUT2_P") and X5 ("OUT2_N") on the PLL board to J1 ("HS_CLK_P") and J3 ("HS_CLK_N") on the chip board. It doesn't matter which way you connect the cables, the clock phase will just shift by 180 degrees.
+- 20-pin 2x10 0.05" (1.27mm) cable from JP2 ("BANK A") on the FPGA control board to J12 on the chip board, via "EOS Cable Adapter Type G Odd" adapter board.
+- 20-pin 2x10 0.05" (1.27mm) cable from JP4 ("BANK B") on the FPGA control board to J10 on the chip board, via "EOS Cable Adapter Type G Odd" adapter board.
+
+![](doc/ASSY_board_to_board_cables.jpg)
+
+[2] Probe between TP9 ("IREF") and TP8 ("SHNT"). Adjust potentiometer R4 (labeled "IREF") to set the voltage across the IREF shunt to 1.00mV. Use a high-accuracy multimeter to make this adjustment. The shunt resistor has a value of 100 Ohms, so this corresponds to an IREF current of 10uA.
+
+![](doc/PCBA_measure_adjust_IREF.jpg)
+
+CML2CMOS IBIAS (set to 50mV with chip in default state). If scan chain tests work but the heater and ADC self-tests do not work, then investigate this bias current and make sure it increases when you think you are enabling the CML2CMOS clock receiver. Also try increasing the bias current if it was set lower.
+
+![](doc/PCBA_measure_adjust_CML2CMOS_IBIAS.jpg)
+
+IBIAS RX1 (turn all the way CCW to disable and set to zero)
+
+![](doc/PCBA_measure_adjust_IBIAS_RX1.jpg)
+
+IBIAS RX2 (turn all the way CCW to disable and set to zero)
+
+![](doc/PCBA_measure_adjust_IBIAS_RX2.jpg)
 
 
-
-IREF
-
-IBIAS RX1
-
-IBIAS RX2
-
-CML2CMOS IBIAS
 
 
 
