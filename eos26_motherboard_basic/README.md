@@ -107,11 +107,11 @@ EQuIP:  SCAN PASSES
 
 The tuning AFE bringup script should display downward-sloping ADC calibration curves. Here is an example of what the correct output looks like:
 
-![](doc/TEST_adc_bringup_good.jpg)
+![](doc/TEST_adc_bringup_good.png)
 
 If the scan chain test passes, but the ADC test returns constant values for all IDAC settings, this indicates a bad connection related to clocking. Here is an example of what a bad output looks like:
 
-![](doc/TEST_adc_bringup_bad.jpg)
+![](doc/TEST_adc_bringup_bad.png)
 
 If issues are encountered but all of the bias settings above are correct, reseating the chip board in the PGA socket sometimes resolves the problem.
 
