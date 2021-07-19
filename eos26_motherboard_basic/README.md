@@ -100,9 +100,9 @@ experiments/bringup/equip_bringup_tuning_afe.py
 
 The scan chain test should display a PASS result for all 3 scan chains:
 
--------- Summary of the scan test --------
-TX:  SCAN PASSES
-RX:  SCAN PASSES
+-------- Summary of the scan test --------<br />
+TX:  SCAN PASSES<br />
+RX:  SCAN PASSES<br />
 EQuIP:  SCAN PASSES
 
 The tuning AFE bringup script should display downward-sloping ADC calibration curves. Here is an example of what the correct output looks like:
