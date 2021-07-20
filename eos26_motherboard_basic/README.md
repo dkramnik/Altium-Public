@@ -97,7 +97,7 @@ Source the sourceme and cd to the following directory:
 
 In homebrew ipython, run the following scripts:
 
-experiments/bringup/scan_chain_test.py
+experiments/bringup/scan_chain_test.py<br />
 experiments/bringup/equip_bringup_tuning_afe.py
 
 The scan chain test should display a PASS result for all 3 scan chains:
