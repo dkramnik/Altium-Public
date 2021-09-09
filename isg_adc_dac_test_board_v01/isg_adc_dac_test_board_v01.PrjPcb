@@ -142,6 +142,10 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=SJGMMXGB
 
+[GeneratedDocument1]
+DocumentPath=Project Outputs for isg_adc_dac_test_board_v01\Design Rule Check - isg_adc_dac_test_board_top.html
+DItemRevisionGUID=
+
 [Configuration1]
 Name=Sources
 ParameterCount=0

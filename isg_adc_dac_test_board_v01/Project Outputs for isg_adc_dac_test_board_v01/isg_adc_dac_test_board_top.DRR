@@ -1,0 +1,22 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: isg_adc_dac_test_board_top.PcbDoc   9/9/2021  2:52:32 PM
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : isg_adc_dac_test_board_top.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      14mil (0.356mm)                                           Round             94        PTH        19.22inch (488.26mm)
+T2      32mil (0.8mm)                                             Round             6         PTH        0.95inch (24.13mm)
+T3      35mil (0.889mm)                                           Round             2         PTH        0.10inch (2.54mm)
+T4      36mil (0.914mm)                                           Round             16        PTH        1.50inch (38.10mm)
+T5      40mil (1.016mm)                                           Round             25        PTH        9.31inch (236.53mm)
+T6      40mil (1.021mm)                                           Round             2         PTH        0.10inch (2.54mm)
+T7      52mil (1.321mm)                                           Round             4         PTH        0.95inch (24.13mm)
+T8      150mil (3.81mm)                                           Round             4         PTH        9.22inch (234.15mm)
+T9      257mil (6.528mm)                                          Round             4         PTH        6.83inch (173.44mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              157
+
+Total Processing Time (hh:mm:ss) : 00:00:01

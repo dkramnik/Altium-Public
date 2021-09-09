@@ -1,0 +1,461 @@
+*************************************************************
+FileName = isg_adc_dac_test_board_top.GBR
+AutoAperture = True
+*************************************************************
+Generating : Mechanical 15
+      File : isg_adc_dac_test_board_top.GM15
+
+    Adding Layer      : Mechanical 15
+
+
+Used DCodes :
+    D66
+    D67
+*************************************************************
+
+*************************************************************
+Generating : Mechanical 13
+      File : isg_adc_dac_test_board_top.GM13
+
+    Adding Layer      : Mechanical 13
+
+
+Used DCodes :
+    D66
+*************************************************************
+
+*************************************************************
+Generating : Bottom Component Center
+      File : isg_adc_dac_test_board_top.GM9
+
+    Adding Layer      : Bottom Component Center
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Top Component Center
+      File : isg_adc_dac_test_board_top.GM8
+
+    Adding Layer      : Top Component Center
+
+
+Used DCodes :
+    D66
+*************************************************************
+
+*************************************************************
+Generating : Bottom Assembly
+      File : isg_adc_dac_test_board_top.GM7
+
+    Adding Layer      : Bottom Assembly
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Top Assembly
+      File : isg_adc_dac_test_board_top.GM6
+
+    Adding Layer      : Top Assembly
+
+
+Used DCodes :
+    D10
+*************************************************************
+
+*************************************************************
+Generating : Bottom Courtyard
+      File : isg_adc_dac_test_board_top.GM5
+
+    Adding Layer      : Bottom Courtyard
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Top Courtyard
+      File : isg_adc_dac_test_board_top.GM4
+
+    Adding Layer      : Top Courtyard
+
+
+Used DCodes :
+    D10
+*************************************************************
+
+*************************************************************
+Generating : Bottom 3D Body
+      File : isg_adc_dac_test_board_top.GM3
+
+    Adding Layer      : Bottom 3D Body
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Top 3D Body
+      File : isg_adc_dac_test_board_top.GM2
+
+    Adding Layer      : Top 3D Body
+
+
+Used DCodes :
+    D10
+*************************************************************
+
+*************************************************************
+Generating : Mechanical 1
+      File : isg_adc_dac_test_board_top.GM1
+
+    Adding Layer      : Mechanical 1
+
+
+Used DCodes :
+    D66
+*************************************************************
+
+*************************************************************
+Generating : Keep-Out Layer
+      File : isg_adc_dac_test_board_top.GKO
+
+    Adding Layer      : Keep-Out Layer
+
+
+Used DCodes :
+    D68
+*************************************************************
+
+*************************************************************
+Generating : Bottom Overlay
+      File : isg_adc_dac_test_board_top.GBO
+
+    Adding Layer      : Bottom Overlay
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Bottom Paste
+      File : isg_adc_dac_test_board_top.GBP
+
+    Adding Layer      : Bottom Paste
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Bottom Solder
+      File : isg_adc_dac_test_board_top.GBS
+
+    Adding Layer      : Bottom Solder
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D43
+    D44
+    D45
+    D46
+    D47
+    D48
+    D49
+    D50
+    D51
+    D52
+*************************************************************
+
+*************************************************************
+Generating : Top Solder
+      File : isg_adc_dac_test_board_top.GTS
+
+    Adding Layer      : Top Solder
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D19
+    D20
+    D23
+    D27
+    D28
+    D29
+    D32
+    D33
+    D34
+    D35
+    D36
+    D37
+    D38
+    D39
+    D40
+    D41
+    D42
+    D43
+    D44
+    D45
+    D46
+    D47
+    D48
+    D49
+    D50
+    D51
+    D52
+*************************************************************
+
+*************************************************************
+Generating : Top Paste
+      File : isg_adc_dac_test_board_top.GTP
+
+    Adding Layer      : Top Paste
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D16
+    D17
+    D18
+    D19
+    D20
+    D21
+    D22
+    D23
+    D24
+    D25
+    D26
+    D27
+    D28
+    D29
+    D30
+    D31
+    D32
+*************************************************************
+
+*************************************************************
+Generating : Top Overlay
+      File : isg_adc_dac_test_board_top.GTO
+
+    Adding Layer      : Top Overlay
+
+
+Used DCodes :
+    D10
+    D11
+    D12
+    D13
+    D14
+    D15
+*************************************************************
+
+*************************************************************
+Generating : Top Pad Master
+      File : isg_adc_dac_test_board_top.GPT
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D16
+    D17
+    D18
+    D19
+    D20
+    D21
+    D22
+    D23
+    D24
+    D25
+    D26
+    D27
+    D28
+    D29
+    D30
+    D31
+    D32
+    D50
+    D56
+    D57
+    D58
+    D59
+    D60
+    D61
+    D62
+    D63
+    D64
+*************************************************************
+
+*************************************************************
+Generating : Bottom Pad Master
+      File : isg_adc_dac_test_board_top.GPB
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D50
+    D56
+    D57
+    D58
+    D59
+    D60
+    D61
+    D62
+    D63
+    D64
+*************************************************************
+
+*************************************************************
+Generating : Bottom Layer
+      File : isg_adc_dac_test_board_top.GBL
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D13
+    D50
+    D53
+    D56
+    D57
+    D58
+    D59
+    D60
+    D61
+    D62
+    D63
+    D64
+    D65
+*************************************************************
+
+*************************************************************
+Generating : MidLayer Lower
+      File : isg_adc_dac_test_board_top.G2
+
+    Adding Layer      : MidLayer Lower
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D50
+    D56
+    D61
+    D65
+*************************************************************
+
+*************************************************************
+Generating : MidLayer Upper
+      File : isg_adc_dac_test_board_top.G1
+
+    Adding Layer      : MidLayer Upper
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D50
+    D56
+    D59
+    D60
+    D62
+    D63
+    D64
+    D65
+*************************************************************
+
+*************************************************************
+Generating : Top Layer
+      File : isg_adc_dac_test_board_top.GTL
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D13
+    D16
+    D17
+    D18
+    D19
+    D20
+    D21
+    D22
+    D23
+    D24
+    D25
+    D26
+    D27
+    D28
+    D29
+    D30
+    D31
+    D32
+    D50
+    D53
+    D54
+    D55
+    D56
+    D57
+    D58
+    D59
+    D60
+    D61
+    D62
+    D63
+    D64
+    D65
+*************************************************************
+
+*************************************************************
+Generating : Drill Drawing
+      File : isg_adc_dac_test_board_top.GD1
+
+    Adding Drill Pair : Top Layer-Bottom Layer
+
+    Adding Layer      : Drill Drawing
+
+
+Used DCodes :
+    D69
+    D70
+*************************************************************
+
+*************************************************************
+Generating : Drill Guide
+      File : isg_adc_dac_test_board_top.GG1
+
+    Adding Drill Pair : Top Layer-Bottom Layer
+
+    Adding Layer      : Drill Guide
+
+
+Used DCodes :
+    D69
+*************************************************************
+
