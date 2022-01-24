@@ -1,0 +1,18 @@
+Board Information Report
+Filename     : C:\Users\Sidney Buchbinder\Desktop\PCB\GF45RFSOI_Tapeout_DEC2020\PCB.PcbDoc
+Date         : 6/30/2021
+Time         : 4:52:07 PM
+Time Elapsed : 00:00:04
+
+Layer, Sq.In., Sq.MM., Percent of layer
+    Top Layer, 0.634, 408.942, 65%
+    bu3, 0.812, 523.879, 84%
+    bu2, 0.629, 405.96, 65%
+    bu1, 0.671, 433.076, 69%
+    Core1, 0.849, 547.577, 88%
+    Core1b, 0.835, 538.478, 86%
+    bu1b, 0.805, 519.32, 83%
+    bu2b, 0.846, 545.651, 87%
+    bu3b, 0.839, 541.582, 87%
+    Bottom Layer, 0.825, 532.171, 85%
+count : 10
