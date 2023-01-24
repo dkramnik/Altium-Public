@@ -41,41 +41,7 @@ PrefsVaultGUID=
 PrefsRevisionGUID=
 
 [Document1]
-DocumentPath=PCB.PcbDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=FMFPYXCP
-
-[Document2]
-DocumentPath=PcbLib.PcbLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=AMOQBSDH
-
-[Document3]
-DocumentPath=Schematic.SchDoc
+DocumentPath=isg_cena_chip_wirebonding_board.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -89,10 +55,44 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=CEACBSMO
+DocumentUniqueId=NFQRSWUR
+
+[Document2]
+DocumentPath=isg_cena_chip_wirebonding_board.PcbDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=LTFRNMOT
+
+[Document3]
+DocumentPath=SAMTEC-TFM-125-02-X-D-A\SAMTEC-TFM-125-02-X-D-A.PCBLIB
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=KRHOLIIQ
 
 [Document4]
-DocumentPath=Schlib.SchLib
+DocumentPath=CenaChip.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -106,10 +106,10 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=RVEBBDNA
+DocumentUniqueId=BLSXVXTE
 
 [Document5]
-DocumentPath=GF45RFSOI_Tapeout_DEC2020.Annotation
+DocumentPath=CenaChip.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -123,10 +123,10 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=IPVGZRZH
 
 [Document6]
-DocumentPath=OutputJob.OutJob
+DocumentPath=SAMTEC-TFM-125-02-X-D-A\SAMTEC-TFM-125-02-X-D-A.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -140,266 +140,10 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=HIANBKVZ
 
 [GeneratedDocument1]
-DocumentPath=Project Outputs for GF45RFSOI_Tapeout_DEC2020\ODB\odb\steps\pcb\layers\comp_+_bot\components
-DItemRevisionGUID=
-
-[GeneratedDocument2]
-DocumentPath=Project Outputs for GF45RFSOI_Tapeout_DEC2020\ODB\odb\steps\pcb\layers\comp_+_top\components
-DItemRevisionGUID=
-
-[GeneratedDocument3]
-DocumentPath=Project Outputs for GF45RFSOI_Tapeout_DEC2020\ODB\odb\steps\pcb\eda\data
-DItemRevisionGUID=
-
-[GeneratedDocument4]
-DocumentPath=Project Outputs for GF45RFSOI_Tapeout_DEC2020\ODB\odb\steps\pcb\layers\bottom_overlay\features
-DItemRevisionGUID=
-
-[GeneratedDocument5]
-DocumentPath=Project Outputs for GF45RFSOI_Tapeout_DEC2020\ODB\odb\steps\pcb\layers\bottom_paste\features
-DItemRevisionGUID=
-
-[GeneratedDocument6]
-DocumentPath=Project Outputs for GF45RFSOI_Tapeout_DEC2020\ODB\odb\steps\pcb\layers\bottom_solder\features
-DItemRevisionGUID=
-
-[GeneratedDocument7]
-DocumentPath=Project Outputs for GF45RFSOI_Tapeout_DEC2020\ODB\odb\steps\pcb\layers\comp_+_bot\features
-DItemRevisionGUID=
-
-[GeneratedDocument8]
-DocumentPath=Project Outputs for GF45RFSOI_Tapeout_DEC2020\ODB\odb\steps\pcb\layers\comp_+_top\features
-DItemRevisionGUID=
-
-[GeneratedDocument9]
-DocumentPath=Project Outputs for GF45RFSOI_Tapeout_DEC2020\ODB\odb\steps\pcb\layers\keep-out_layer\features
-DItemRevisionGUID=
-
-[GeneratedDocument10]
-DocumentPath=Project Outputs for GF45RFSOI_Tapeout_DEC2020\ODB\odb\steps\pcb\layers\l1\features
-DItemRevisionGUID=
-
-[GeneratedDocument11]
-DocumentPath=Project Outputs for GF45RFSOI_Tapeout_DEC2020\ODB\odb\steps\pcb\layers\l2\features
-DItemRevisionGUID=
-
-[GeneratedDocument12]
-DocumentPath=Project Outputs for GF45RFSOI_Tapeout_DEC2020\ODB\odb\steps\pcb\layers\l3\features
-DItemRevisionGUID=
-
-[GeneratedDocument13]
-DocumentPath=Project Outputs for GF45RFSOI_Tapeout_DEC2020\ODB\odb\steps\pcb\layers\l4\features
-DItemRevisionGUID=
-
-[GeneratedDocument14]
-DocumentPath=Project Outputs for GF45RFSOI_Tapeout_DEC2020\ODB\odb\steps\pcb\layers\l5\features
-DItemRevisionGUID=
-
-[GeneratedDocument15]
-DocumentPath=Project Outputs for GF45RFSOI_Tapeout_DEC2020\ODB\odb\steps\pcb\layers\l6\features
-DItemRevisionGUID=
-
-[GeneratedDocument16]
-DocumentPath=Project Outputs for GF45RFSOI_Tapeout_DEC2020\ODB\odb\steps\pcb\layers\l7\features
-DItemRevisionGUID=
-
-[GeneratedDocument17]
-DocumentPath=Project Outputs for GF45RFSOI_Tapeout_DEC2020\ODB\odb\steps\pcb\layers\l8\features
-DItemRevisionGUID=
-
-[GeneratedDocument18]
-DocumentPath=Project Outputs for GF45RFSOI_Tapeout_DEC2020\ODB\odb\steps\pcb\layers\l9\features
-DItemRevisionGUID=
-
-[GeneratedDocument19]
-DocumentPath=Project Outputs for GF45RFSOI_Tapeout_DEC2020\ODB\odb\steps\pcb\layers\l10\features
-DItemRevisionGUID=
-
-[GeneratedDocument20]
-DocumentPath=Project Outputs for GF45RFSOI_Tapeout_DEC2020\ODB\odb\steps\pcb\layers\mechanical_1\features
-DItemRevisionGUID=
-
-[GeneratedDocument21]
-DocumentPath=Project Outputs for GF45RFSOI_Tapeout_DEC2020\ODB\odb\steps\pcb\layers\mechanical_8\features
-DItemRevisionGUID=
-
-[GeneratedDocument22]
-DocumentPath=Project Outputs for GF45RFSOI_Tapeout_DEC2020\ODB\odb\steps\pcb\layers\top_overlay\features
-DItemRevisionGUID=
-
-[GeneratedDocument23]
-DocumentPath=Project Outputs for GF45RFSOI_Tapeout_DEC2020\ODB\odb\steps\pcb\layers\top_paste\features
-DItemRevisionGUID=
-
-[GeneratedDocument24]
-DocumentPath=Project Outputs for GF45RFSOI_Tapeout_DEC2020\ODB\odb\steps\pcb\layers\top_solder\features
-DItemRevisionGUID=
-
-[GeneratedDocument25]
-DocumentPath=Project Outputs for GF45RFSOI_Tapeout_DEC2020\ODB\odb\steps\pcb\layers\v1\features
-DItemRevisionGUID=
-
-[GeneratedDocument26]
-DocumentPath=Project Outputs for GF45RFSOI_Tapeout_DEC2020\ODB\odb\steps\pcb\layers\v1_drill_drawing\features
-DItemRevisionGUID=
-
-[GeneratedDocument27]
-DocumentPath=Project Outputs for GF45RFSOI_Tapeout_DEC2020\ODB\odb\steps\pcb\layers\v1_drill_guide\features
-DItemRevisionGUID=
-
-[GeneratedDocument28]
-DocumentPath=Project Outputs for GF45RFSOI_Tapeout_DEC2020\ODB\odb\steps\pcb\layers\v2\features
-DItemRevisionGUID=
-
-[GeneratedDocument29]
-DocumentPath=Project Outputs for GF45RFSOI_Tapeout_DEC2020\ODB\odb\steps\pcb\layers\v2_drill_drawing\features
-DItemRevisionGUID=
-
-[GeneratedDocument30]
-DocumentPath=Project Outputs for GF45RFSOI_Tapeout_DEC2020\ODB\odb\steps\pcb\layers\v2_drill_guide\features
-DItemRevisionGUID=
-
-[GeneratedDocument31]
-DocumentPath=Project Outputs for GF45RFSOI_Tapeout_DEC2020\ODB\odb\steps\pcb\layers\v3\features
-DItemRevisionGUID=
-
-[GeneratedDocument32]
-DocumentPath=Project Outputs for GF45RFSOI_Tapeout_DEC2020\ODB\odb\steps\pcb\layers\v3_drill_drawing\features
-DItemRevisionGUID=
-
-[GeneratedDocument33]
-DocumentPath=Project Outputs for GF45RFSOI_Tapeout_DEC2020\ODB\odb\steps\pcb\layers\v3_drill_guide\features
-DItemRevisionGUID=
-
-[GeneratedDocument34]
-DocumentPath=Project Outputs for GF45RFSOI_Tapeout_DEC2020\ODB\odb\steps\pcb\layers\v4\features
-DItemRevisionGUID=
-
-[GeneratedDocument35]
-DocumentPath=Project Outputs for GF45RFSOI_Tapeout_DEC2020\ODB\odb\steps\pcb\layers\v4_drill_drawing\features
-DItemRevisionGUID=
-
-[GeneratedDocument36]
-DocumentPath=Project Outputs for GF45RFSOI_Tapeout_DEC2020\ODB\odb\steps\pcb\layers\v4_drill_guide\features
-DItemRevisionGUID=
-
-[GeneratedDocument37]
-DocumentPath=Project Outputs for GF45RFSOI_Tapeout_DEC2020\ODB\odb\steps\pcb\layers\v5\features
-DItemRevisionGUID=
-
-[GeneratedDocument38]
-DocumentPath=Project Outputs for GF45RFSOI_Tapeout_DEC2020\ODB\odb\steps\pcb\layers\v5_drill_drawing\features
-DItemRevisionGUID=
-
-[GeneratedDocument39]
-DocumentPath=Project Outputs for GF45RFSOI_Tapeout_DEC2020\ODB\odb\steps\pcb\layers\v5_drill_guide\features
-DItemRevisionGUID=
-
-[GeneratedDocument40]
-DocumentPath=Project Outputs for GF45RFSOI_Tapeout_DEC2020\ODB\odb\steps\pcb\layers\v6\features
-DItemRevisionGUID=
-
-[GeneratedDocument41]
-DocumentPath=Project Outputs for GF45RFSOI_Tapeout_DEC2020\ODB\odb\steps\pcb\layers\v6_drill_drawing\features
-DItemRevisionGUID=
-
-[GeneratedDocument42]
-DocumentPath=Project Outputs for GF45RFSOI_Tapeout_DEC2020\ODB\odb\steps\pcb\layers\v6_drill_guide\features
-DItemRevisionGUID=
-
-[GeneratedDocument43]
-DocumentPath=Project Outputs for GF45RFSOI_Tapeout_DEC2020\ODB\odb\steps\pcb\layers\v7\features
-DItemRevisionGUID=
-
-[GeneratedDocument44]
-DocumentPath=Project Outputs for GF45RFSOI_Tapeout_DEC2020\ODB\odb\steps\pcb\layers\v7_drill_drawing\features
-DItemRevisionGUID=
-
-[GeneratedDocument45]
-DocumentPath=Project Outputs for GF45RFSOI_Tapeout_DEC2020\ODB\odb\steps\pcb\layers\v7_drill_guide\features
-DItemRevisionGUID=
-
-[GeneratedDocument46]
-DocumentPath=Project Outputs for GF45RFSOI_Tapeout_DEC2020\ODB\odb\steps\pcb\layers\v8\features
-DItemRevisionGUID=
-
-[GeneratedDocument47]
-DocumentPath=Project Outputs for GF45RFSOI_Tapeout_DEC2020\ODB\odb\steps\pcb\layers\v8_drill_drawing\features
-DItemRevisionGUID=
-
-[GeneratedDocument48]
-DocumentPath=Project Outputs for GF45RFSOI_Tapeout_DEC2020\ODB\odb\steps\pcb\layers\v8_drill_guide\features
-DItemRevisionGUID=
-
-[GeneratedDocument49]
-DocumentPath=Project Outputs for GF45RFSOI_Tapeout_DEC2020\ODB\odb\steps\pcb\layers\v9\features
-DItemRevisionGUID=
-
-[GeneratedDocument50]
-DocumentPath=Project Outputs for GF45RFSOI_Tapeout_DEC2020\ODB\odb\steps\pcb\layers\v9_drill_drawing\features
-DItemRevisionGUID=
-
-[GeneratedDocument51]
-DocumentPath=Project Outputs for GF45RFSOI_Tapeout_DEC2020\ODB\odb\steps\pcb\layers\v9_drill_guide\features
-DItemRevisionGUID=
-
-[GeneratedDocument52]
-DocumentPath=Project Outputs for GF45RFSOI_Tapeout_DEC2020\ODB\odb\matrix\matrix
-DItemRevisionGUID=
-
-[GeneratedDocument53]
-DocumentPath=Project Outputs for GF45RFSOI_Tapeout_DEC2020\ODB\odb\steps\pcb\netlists\cadnet\netlist
-DItemRevisionGUID=
-
-[GeneratedDocument54]
-DocumentPath=Project Outputs for GF45RFSOI_Tapeout_DEC2020\ODB\PCB.REP
-DItemRevisionGUID=
-
-[GeneratedDocument55]
-DocumentPath=Project Outputs for GF45RFSOI_Tapeout_DEC2020\ODB\odb\steps\pcb\profile
-DItemRevisionGUID=
-
-[GeneratedDocument56]
-DocumentPath=Project Outputs for GF45RFSOI_Tapeout_DEC2020\ODB\odb\steps\pcb\stephdr
-DItemRevisionGUID=
-
-[GeneratedDocument57]
-DocumentPath=Project Outputs for GF45RFSOI_Tapeout_DEC2020\ODB\odb\steps\pcb\layers\v1\tools
-DItemRevisionGUID=
-
-[GeneratedDocument58]
-DocumentPath=Project Outputs for GF45RFSOI_Tapeout_DEC2020\ODB\odb\steps\pcb\layers\v2\tools
-DItemRevisionGUID=
-
-[GeneratedDocument59]
-DocumentPath=Project Outputs for GF45RFSOI_Tapeout_DEC2020\ODB\odb\steps\pcb\layers\v3\tools
-DItemRevisionGUID=
-
-[GeneratedDocument60]
-DocumentPath=Project Outputs for GF45RFSOI_Tapeout_DEC2020\ODB\odb\steps\pcb\layers\v4\tools
-DItemRevisionGUID=
-
-[GeneratedDocument61]
-DocumentPath=Project Outputs for GF45RFSOI_Tapeout_DEC2020\ODB\odb\steps\pcb\layers\v5\tools
-DItemRevisionGUID=
-
-[GeneratedDocument62]
-DocumentPath=Project Outputs for GF45RFSOI_Tapeout_DEC2020\ODB\odb\steps\pcb\layers\v6\tools
-DItemRevisionGUID=
-
-[GeneratedDocument63]
-DocumentPath=Project Outputs for GF45RFSOI_Tapeout_DEC2020\ODB\odb\steps\pcb\layers\v7\tools
-DItemRevisionGUID=
-
-[GeneratedDocument64]
-DocumentPath=Project Outputs for GF45RFSOI_Tapeout_DEC2020\ODB\odb\steps\pcb\layers\v8\tools
-DItemRevisionGUID=
-
-[GeneratedDocument65]
-DocumentPath=Project Outputs for GF45RFSOI_Tapeout_DEC2020\ODB\odb\steps\pcb\layers\v9\tools
+DocumentPath=Project Outputs for isg_cena_chip_wirebonding_board\Design Rule Check - isg_cena_chip_wirebonding_board.html
 DItemRevisionGUID=
 
 [Configuration1]
@@ -623,20 +367,20 @@ Name=Fabrication Outputs
 Description=
 TargetPrinter=printer-starboy
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
-OutputType1=CompositeDrill
-OutputName1=Composite Drill Drawing
+OutputType1=Board Stack Report
+OutputName1=Report Board Stack
 OutputDocumentPath1=
 OutputVariantName1=
 OutputDefault1=0
 PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType2=Drill
-OutputName2=Drill Drawing/Guides
+OutputType2=CompositeDrill
+OutputName2=Composite Drill Drawing
 OutputDocumentPath2=
 OutputVariantName2=
 OutputDefault2=0
 PageOptions2=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType3=Board Stack Report
-OutputName3=Report Board Stack
+OutputType3=Drill
+OutputName3=Drill Drawing/Guides
 OutputDocumentPath3=
 OutputVariantName3=
 OutputDefault3=0
@@ -647,51 +391,47 @@ OutputDocumentPath4=
 OutputVariantName4=[No Variations]
 OutputDefault4=0
 PageOptions4=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType5=Gerber X2
-OutputName5=Gerber X2 Files
+OutputType5=Gerber
+OutputName5=Gerber Files
 OutputDocumentPath5=
-OutputVariantName5=
+OutputVariantName5=[No Variations]
 OutputDefault5=0
-OutputType6=ODB
-OutputName6=ODB++ Files
+OutputType6=Gerber X2
+OutputName6=Gerber X2 Files
 OutputDocumentPath6=
-OutputVariantName6=[No Variations]
+OutputVariantName6=
 OutputDefault6=0
-Configuration6_Name1=ForceUpdateSettings
-Configuration6_Item1=False
-Configuration6_Name2=OutputConfigurationParameter1
-Configuration6_Item2=Compression_None=True|Compression_tar_tgz=True|Compression_zip=True|ExportPositivePlaneLayers=False|GenerateDRCRulesFile=False|IncludeUnconnectedMidLayerPads=False|MergeNetTieNets=False|ObjsInsideBoardOutlineOnly=False|ODBProfileLayer=-1000|ODBProfileLayerV7=-1|PlotBackDrillingPairs=False|PlotBlindViasPair0_DrillType=Regular|PlotBlindViasPair0_HighLayer=Mid Layer 3|PlotBlindViasPair0_LowLayer=Mid Layer 2|PlotBlindViasPair0_Plot=True|PlotBlindViasPairs=False|PlotBottomLayerPlot=True|PlotBottomOverlayPlot=True|PlotBottomPastePlot=True|PlotBottomSolderPlot=True|PlotDrillDrawingPair0_DrillType=Regular|PlotDrillDrawingPair0_HighLayer=Bottom Layer|PlotDrillDrawingPair0_LowLayer=Top Layer|PlotDrillDrawingPair0_Plot=False|PlotDrillDrawingPair1_DrillType=MicroViaDrill|PlotDrillDrawingPair1_HighLayer=Mid Layer 1|PlotDrillDrawingPair1_LowLayer=Top Layer|PlotDrillDrawingPair1_Plot=True|PlotDrillDrawingPair2_DrillType=MicroViaDrill|PlotDrillDrawingPair2_HighLayer=Mid Layer 5|PlotDrillDrawingPair2_LowLayer=Mid Layer 1|PlotDrillDrawingPair2_Plot=True|PlotDrillDrawingPair3_DrillType=Regular|PlotDrillDrawingPair3_HighLayer=Mid Layer 3|PlotDrillDrawingPair3_LowLayer=Mid Layer 2|PlotDrillDrawingPair3_Plot=True|PlotDrillDrawingPair4_DrillType=MicroViaDrill|PlotDrillDrawingPair4_HighLayer=Mid Layer 8|PlotDrillDrawingPair4_LowLayer=Mid Layer 3|PlotDrillDrawingPair4_Plot=True|PlotDrillDrawingPair5_DrillType=MicroViaDrill|PlotDrillDrawingPair5_HighLayer=Bottom Layer|PlotDrillDrawingPair5_LowLayer=Mid Layer 4|PlotDrillDrawingPair5_Plot=True|PlotDrillDrawingPair6_DrillType=MicroViaDrill|PlotDrillDrawingPair6_HighLayer=Mid Layer 7|PlotDrillDrawingPair6_LowLayer=Mid Layer 5|PlotDrillDrawingPair6_Plot=True|PlotDrillDrawingPair7_DrillType=MicroViaDrill|PlotDrillDrawingPair7_HighLayer=Mid Layer 4|PlotDrillDrawingPair7_LowLayer=Mid Layer 6|PlotDrillDrawingPair7_Plot=True|PlotDrillDrawingPair8_DrillType=MicroViaDrill|PlotDrillDrawingPair8_HighLayer=Mid Layer 2|PlotDrillDrawingPair8_LowLayer=Mid Layer 7|PlotDrillDrawingPair8_Plot=True|PlotDrillDrawingPair9_DrillType=MicroViaDrill|PlotDrillDrawingPair9_HighLayer=Mid Layer 6|PlotDrillDrawingPair9_LowLayer=Mid Layer 8|PlotDrillDrawingPair9_Plot=True|PlotDrillDrawingPairs=False|PlotDrillGuidePair0_DrillType=Regular|PlotDrillGuidePair0_HighLayer=Bottom Layer|PlotDrillGuidePair0_LowLayer=Top Layer|PlotDrillGuidePair0_Plot=False|PlotDrillGuidePair1_DrillType=MicroViaDrill|PlotDrillGuidePair1_HighLayer=Mid Layer 1|PlotDrillGuidePair1_LowLayer=Top Layer|PlotDrillGuidePair1_Plot=True|PlotDrillGuidePair2_DrillType=MicroViaDrill|PlotDrillGuidePair2_HighLayer=Mid Layer 5|PlotDrillGuidePair2_LowLayer=Mid Layer 1|PlotDrillGuidePair2_Plot=True|PlotDrillGuidePair3_DrillType=Regular|PlotDrillGuidePair3_HighLayer=Mid Layer 3|PlotDrillGuidePair3_LowLayer=Mid Layer 2|PlotDrillGuidePair3_Plot=True|PlotDrillGuidePair4_DrillType=MicroViaDrill|PlotDrillGuidePair4_HighLayer=Mid Layer 8|PlotDrillGuidePair4_LowLayer=Mid Layer 3|PlotDrillGuidePair4_Plot=True|PlotDrillGuidePair5_DrillType=MicroViaDrill|PlotDrillGuidePair5_HighLayer=Bottom Layer|PlotDrillGuidePair5_LowLayer=Mid Layer 4|PlotDrillGuidePair5_Plot=True|PlotDrillGuidePair6_DrillType=MicroViaDrill|PlotDrillGuidePair6_HighLayer=Mid Layer 7|PlotDrillGuidePair6_LowLayer=Mid Layer 5|PlotDrillGuidePair6_Plot=True|PlotDrillGuidePair7_DrillType=MicroViaDrill|PlotDrillGuidePair7_HighLayer=Mid Layer 4|PlotDrillGuidePair7_LowLayer=Mid Layer 6|PlotDrillGuidePair7_Plot=True|PlotDrillGuidePair8_DrillType=MicroViaDrill|PlotDrillGuidePair8_HighLayer=Mid Layer 2|PlotDrillGuidePair8_LowLayer=Mid Layer 7|PlotDrillGuidePair8_Plot=True|PlotDrillGuidePair9_DrillType=MicroViaDrill|PlotDrillGuidePair9_HighLayer=Mid Layer 6|PlotDrillGuidePair9_LowLayer=Mid Layer 8|PlotDrillGuidePair9_Plot=True|PlotDrillGuidePairs=False|PlotInternalPlane10Plot=False|PlotInternalPlane11Plot=False|PlotInternalPlane12Plot=False|PlotInternalPlane13Plot=False|PlotInternalPlane14Plot=False|PlotInternalPlane15Plot=False|PlotInternalPlane16Plot=False|PlotInternalPlane1Plot=False|PlotInternalPlane2Plot=False|PlotInternalPlane3Plot=False|PlotInternalPlane4Plot=False|PlotInternalPlane5Plot=False|PlotInternalPlane6Plot=False|PlotInternalPlane7Plot=False|PlotInternalPlane8Plot=False|PlotInternalPlane9Plot=False|PlotKeepOutLayerPlot=True|PlotMechanical10Plot=False|PlotMechanical11Plot=False|PlotMechanical12Plot=False|PlotMechanical13Plot=False|PlotMechanical14Plot=False|PlotMechanical15Plot=False|PlotMechanical16Plot=False|PlotMechanical1Plot=True|PlotMechanical2Plot=False|PlotMechanical3Plot=False|PlotMechanical4Plot=False|PlotMechanical5Plot=False|PlotMechanical6Plot=False|PlotMechanical7Plot=False|PlotMechanical8Plot=True|PlotMechanical9Plot=False|PlotMicroViasPair0_DrillType=MicroViaDrill|PlotMicroViasPair0_HighLayer=Mid Layer 1|PlotMicroViasPair0_LowLayer=Top Layer|PlotMicroViasPair0_Plot=True|PlotMicroViasPair1_DrillType=MicroViaDrill|PlotMicroViasPair1_HighLayer=Mid Layer 5|PlotMicroViasPair1_LowLayer=Mid Layer 1|PlotMicroViasPair1_Plot=True|PlotMicroViasPair2_DrillType=MicroViaDrill|PlotMicroViasPair2_HighLayer=Mid Layer 8|PlotMicroViasPair2_LowLayer=Mid Layer 3|PlotMicroViasPair2_Plot=True|PlotMicroViasPair3_DrillType=MicroViaDrill|PlotMicroViasPair3_HighLayer=Bottom Layer|PlotMicroViasPair3_LowLayer=Mid Layer 4|PlotMicroViasPair3_Plot=True|PlotMicroViasPair4_DrillType=MicroViaDrill|PlotMicroViasPair4_HighLayer=Mid Layer 7|PlotMicroViasPair4_LowLayer=Mid Layer 5|PlotMicroViasPair4_Plot=True|PlotMicroViasPair5_DrillType=MicroViaDrill|PlotMicroViasPair5_HighLayer=Mid Layer 4|PlotMicroViasPair5_LowLayer=Mid Layer 6|PlotMicroViasPair5_Plot=True|PlotMicroViasPair6_DrillType=MicroViaDrill|PlotMicroViasPair6_HighLayer=Mid Layer 2|PlotMicroViasPair6_LowLayer=Mid Layer 7|PlotMicroViasPair6_Plot=True|PlotMicroViasPair7_DrillType=MicroViaDrill|PlotMicroViasPair7_HighLayer=Mid Layer 6|PlotMicroViasPair7_LowLayer=Mid Layer 8|PlotMicroViasPair7_Plot=True|PlotMicroViasPairs=False|PlotMidLayer10Plot=False|PlotMidLayer11Plot=False|PlotMidLayer12Plot=False|PlotMidLayer13Plot=False|PlotMidLayer14Plot=False|PlotMidLayer15Plot=False|PlotMidLayer16Plot=False|PlotMidLayer17Plot=False|PlotMidLayer18Plot=False|PlotMidLayer19Plot=False|PlotMidLayer1Plot=True|PlotMidLayer20Plot=False|PlotMidLayer21Plot=False|PlotMidLayer22Plot=False|PlotMidLayer23Plot=False|PlotMidLayer24Plot=False|PlotMidLayer25Plot=False|PlotMidLayer26Plot=False|PlotMidLayer27Plot=False|PlotMidLayer28Plot=False|PlotMidLayer29Plot=False|PlotMidLayer2Plot=True|PlotMidLayer30Plot=False|PlotMidLayer3Plot=True|PlotMidLayer4Plot=True|PlotMidLayer5Plot=True|PlotMidLayer6Plot=True|PlotMidLayer7Plot=True|PlotMidLayer8Plot=True|PlotMidLayer9Plot=False|PlotNPTHPair0_DrillType=Regular|PlotNPTHPair0_HighLayer=Top Layer|PlotNPTHPair0_LowLayer=Bottom Layer|PlotNPTHPair0_Plot=False|PlotNPTHPairs=False|PlotPTHPair0_DrillType=Regular|PlotPTHPair0_HighLayer=Top Layer|PlotPTHPair0_LowLayer=Bottom Layer|PlotPTHPair0_Plot=False|PlotPTHPairs=False|PlotTopLayerPlot=True|PlotTopOverlayPlot=True|PlotTopPastePlot=True|PlotTopSolderPlot=True|Record=ODBView|Units=Metric|DocumentPath=C:\Users\Sidney Buchbinder\Desktop\PCB\GF45RFSOI_Tapeout_DEC2020\PCB.PcbDoc
-OutputType7=Mask
-OutputName7=Solder/Paste Mask Prints
+OutputType7=IPC2581
+OutputName7=IPC-2581 Files
 OutputDocumentPath7=
 OutputVariantName7=
 OutputDefault7=0
-PageOptions7=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType8=NC Drill
-OutputName8=NC Drill Files
+OutputType8=Mask
+OutputName8=Solder/Paste Mask Prints
 OutputDocumentPath8=
 OutputVariantName8=
 OutputDefault8=0
-OutputType9=IPC2581
-OutputName9=IPC-2581 Files
+PageOptions8=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+OutputType9=NC Drill
+OutputName9=NC Drill Files
 OutputDocumentPath9=
 OutputVariantName9=
 OutputDefault9=0
-OutputType10=Plane
-OutputName10=Power-Plane Prints
+OutputType10=ODB
+OutputName10=ODB++ Files
 OutputDocumentPath10=
-OutputVariantName10=
+OutputVariantName10=[No Variations]
 OutputDefault10=0
-PageOptions10=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType11=Test Points
-OutputName11=Test Point Report
+OutputType11=Plane
+OutputName11=Power-Plane Prints
 OutputDocumentPath11=
 OutputVariantName11=
 OutputDefault11=0
-OutputType12=Gerber
-OutputName12=Gerber Files
+PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+OutputType12=Test Points
+OutputName12=Test Point Report
 OutputDocumentPath12=
-OutputVariantName12=[No Variations]
+OutputVariantName12=
 OutputDefault12=0
 
 [OutputGroup6]
@@ -705,43 +445,43 @@ OutputDocumentPath1=
 OutputVariantName1=[No Variations]
 OutputDefault1=0
 PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType2=ComponentCrossReference
-OutputName2=Component Cross Reference Report
+OutputType2=BOM_ReportCompare
+OutputName2=BOM Compare
 OutputDocumentPath2=
 OutputVariantName2=[No Variations]
 OutputDefault2=0
-OutputType3=ReportHierarchy
-OutputName3=Report Project Hierarchy
+PageOptions2=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+OutputType3=ComponentCrossReference
+OutputName3=Component Cross Reference Report
 OutputDocumentPath3=
 OutputVariantName3=[No Variations]
 OutputDefault3=0
-OutputType4=Script
-OutputName4=Script Output
+OutputType4=Export Comments
+OutputName4=Export Comments
 OutputDocumentPath4=
 OutputVariantName4=[No Variations]
 OutputDefault4=0
-OutputType5=SimpleBOM
-OutputName5=Simple BOM
+PageOptions4=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+OutputType5=ReportHierarchy
+OutputName5=Report Project Hierarchy
 OutputDocumentPath5=
 OutputVariantName5=[No Variations]
 OutputDefault5=0
-OutputType6=SinglePinNetReporter
-OutputName6=Report Single Pin Nets
+OutputType6=Script
+OutputName6=Script Output
 OutputDocumentPath6=
 OutputVariantName6=[No Variations]
 OutputDefault6=0
-OutputType7=BOM_ReportCompare
-OutputName7=BOM Compare
+OutputType7=SimpleBOM
+OutputName7=Simple BOM
 OutputDocumentPath7=
 OutputVariantName7=[No Variations]
 OutputDefault7=0
-PageOptions7=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType8=Export Comments
-OutputName8=Export Comments
+OutputType8=SinglePinNetReporter
+OutputName8=Report Single Pin Nets
 OutputDocumentPath8=
 OutputVariantName8=[No Variations]
 OutputDefault8=0
-PageOptions8=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 
 [OutputGroup7]
 Name=Other Outputs
@@ -1170,8 +910,8 @@ Type8=1
 Type9=1
 Type10=1
 Type11=2
-Type12=0
-Type13=0
+Type12=2
+Type13=2
 Type14=1
 Type15=1
 Type16=1
@@ -1315,22 +1055,6 @@ MatchStrictly2=1
 PhysicalNamingFormat=$Component_$RoomName
 GlobalIndexSortOrder=3
 GlobalIndexSortLocation=0
-UniqueIDPath0=
-DocumentName0=Schematic.SchDoc
-IsEnabled0=1
-SelectionScope0=All
-Order0=1
-IndexEnabled0=0
-IndexStartValue0=1
-Suffix0=
-UniqueIDPath1=
-DocumentName1=Schematic_v2.SchDoc
-IsEnabled1=0
-SelectionScope1=All
-Order1=2
-IndexEnabled1=0
-IndexStartValue1=1
-Suffix1=
 
 [PrjClassGen]
 CompClassManualEnabled=0
@@ -1342,16 +1066,10 @@ NetClassManualEnabled=1
 NetClassSeparateForBusSections=0
 
 [LibraryUpdateOptions]
-SelectedOnly=1
+SelectedOnly=0
 UpdateVariants=1
 UpdateToLatestRevision=1
 PartTypes=0
-ComponentLibIdentifierKind0=Library Name And Type
-ComponentLibraryIdentifier0=EOS34_lib_sch.SchLib
-ComponentDesignItemID0=EOS34_DEVICE
-ComponentSymbolReference0=EOS34_DEVICE
-ComponentUpdate0=1
-ComponentIsDeviceSheet0=0
 FullReplace=1
 UpdateDesignatorLock=1
 UpdatePartIDLock=1
@@ -1365,19 +1083,6 @@ RemoveParameters=0
 AddModels=1
 RemoveModels=1
 UpdateCurrentModels=1
-ParameterName0=Comment
-ParameterUpdate0=1
-ParameterName1=Component Kind
-ParameterUpdate1=1
-ParameterName2=Description
-ParameterUpdate2=1
-ParameterName3=Library Reference
-ParameterUpdate3=1
-ModelTypeGroup0=PCBLIB
-ModelTypeUpdate0=1
-ModelType0=PCBLIB
-ModelName0=EOS34_device
-ModelUpdate0=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0
