@@ -1,10 +1,8 @@
-Comment,Description,Designator,Footprint,LibRef,Quantity
-
-"100n","Ceramic Capacitor General Use 1uF ±10% 50V X7R 0603","C1, C2, C5, C6, C9, C10, C13, C14, C33, C34, C35, C36","FP-0603-L_1_6_0_15-W_0_8-IPC_C","CMP-2000-07531-4","12"
-"1u","Ceramic Capacitor General Use 1uF ±10% 50V X7R 0603","C3, C4, C7, C8, C11, C12, C15, C16","FP-0603-L_1_6_0_15-W_0_8-IPC_C","CMP-2000-07531-4","8"
-"100n","Chip Capacitor, 100 nF, +/- 10%, 16 V, -55 to 125 degC, 0402 (1005 Metric), RoHS, Tape and Reel","C17, C18, C19, C20, C21, C22, C23, C24, C25, C26, C27, C28, C29, C30, C31, C32","CAPC1050X55X23ML05T13","CMP-2000-05439-1","16"
-"","","IC1","Cena_WB_4/4","Cena","1"
-"RES 1M 0805","RES SMD 1M OHM 1% 1/8W 0805","R1","FP-ERJ6EN-IPC_A","CMP-2001-04378-6","1"
-"DNP","DNP","R2","FP-ERJ6EN-IPC_A","CMP-2001-04378-6","1"
-"TPD2S017DBVR","Ultra-Low Clamp Voltage ESD Solution with Series-Resistor Isolation, 2 Channels, -40 to 85 degC, 6-pin SOT-23 (DBV), Green (RoHS & no Sb/Br)","U1, U2, U3, U4, U5, U6, U7, U8, U9, U10, U11, U12, U13, U14, U15, U16","DBV0006A_L","CMP-0326-00057-3","16"
-"TFM-125-02-X-D-A","SAMTEC TFM-125-02-X-D-A","X1, X2","SAMTEC-TFM-125-02-X-D-A","TFM-125-02-X-D-A","2"
+Line,Value,Description,Designator,Footprint,Quantity/PCBA
+1,100n,Ceramic Capacitor General Use 100nF ±10% 50V X7R 0603,"C1, C2, C5, C6, C9, C10, C13, C14, C33, C34, C35, C36",603,12
+2,1u,Ceramic Capacitor General Use 1uF ±10% 50V X7R 0603,"C3, C4, C7, C8, C11, C12, C15, C16",603,8
+3,100n,"Ceramic Capacitor General Use 100 nF, ±10% 16V X7R 0402","C17, C18, C19, C20, C21, C22, C23, C24, C25, C26, C27, C28, C29, C30, C31, C32",402,16
+4,1M,RES SMD 1M OHM 1% 1/8W 0805,R1,805,1
+5,DNP,DNP,R2,805,1
+6,TPD2S017DBVR,Ultra-Low Clamp Voltage ESD Solution with Series-Resistor Isolation,"U1, U2, U3, U4, U5, U6, U7, U8, U9, U10, U11, U12, U13, U14, U15, U16",SOT23 (DBV),16
+7,TFM-125-02-X-D-A,SAMTEC TFM-125-02-X-D-A,"X1, X2",SAMTEC-TFM-125-02-X-D-A,2
