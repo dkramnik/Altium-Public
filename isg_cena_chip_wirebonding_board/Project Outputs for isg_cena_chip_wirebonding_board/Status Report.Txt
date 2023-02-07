@@ -1,12 +1,10 @@
-Output: NC Drill Files
-Type  : NC Drill
-From  : Project [isg_cena_chip_wirebonding_board.PrjPcb]
-   Generated File[isg_cena_chip_wirebonding_board.TXT]
-   Generated File[isg_cena_chip_wirebonding_board.LDP]
-   Generated File[isg_cena_chip_wirebonding_board.DRR]
+Output: Generates pick and place files
+Type  : Pick Place
+From  : Variant [[No Variations]] of Project [isg_cena_chip_wirebonding_board.PrjPcb]
+   Generated File[Pick Place for isg_cena_chip_wirebonding_board.txt]
 
 
-Files Generated   : 3
+Files Generated   : 1
 Documents Printed : 0
 
-Finished Output Generation At 3:17:39 PM On 1/20/2023
+Finished Output Generation At 3:02:59 PM On 2/7/2023
