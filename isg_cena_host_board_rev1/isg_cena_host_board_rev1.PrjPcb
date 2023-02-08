@@ -41,7 +41,7 @@ PrefsVaultGUID=
 PrefsRevisionGUID=
 
 [Document1]
-DocumentPath=isg_cena_chip_wirebonding_board.SchDoc
+DocumentPath=isg_cena_host_board_rev1_top.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -55,10 +55,10 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=NFQRSWUR
+DocumentUniqueId=CXPHECWC
 
 [Document2]
-DocumentPath=isg_cena_chip_wirebonding_board.PcbDoc
+DocumentPath=headers.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -72,10 +72,10 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=LTFRNMOT
+DocumentUniqueId=
 
 [Document3]
-DocumentPath=SAMTEC-TFM-125-02-X-D-A\SAMTEC-TFM-125-02-X-D-A.PCBLIB
+DocumentPath=headers.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -89,10 +89,10 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=KRHOLIIQ
+DocumentUniqueId=
 
 [Document4]
-DocumentPath=CenaChip.PcbLib
+DocumentPath=mechanical.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -106,10 +106,10 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=BLSXVXTE
+DocumentUniqueId=CWPQGIRJ
 
 [Document5]
-DocumentPath=CenaChip.SchLib
+DocumentPath=mechanical.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -123,10 +123,10 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=IPVGZRZH
+DocumentUniqueId=
 
 [Document6]
-DocumentPath=SAMTEC-TFM-125-02-X-D-A\SAMTEC-TFM-125-02-X-D-A.SchLib
+DocumentPath=isg_cena_host_board_rev1.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -140,15 +140,41 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=HIANBKVZ
+DocumentUniqueId=BGWUJWPR
 
-[GeneratedDocument1]
-DocumentPath=Project Outputs for isg_cena_chip_wirebonding_board\Design Rule Check - isg_cena_chip_wirebonding_board.html
+[Document7]
+DocumentPath=SMT_header_FTSH.PcbLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
 DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=OUNVRYTI
 
-[GeneratedDocument2]
-DocumentPath=Project Outputs for isg_cena_chip_wirebonding_board\Pick Place for isg_cena_chip_wirebonding_board.txt
+[Document8]
+DocumentPath=SMT_header_FTSH.SchLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
 DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=QGCHIGUD
 
 [Configuration1]
 Name=Sources
@@ -349,26 +375,22 @@ Name=Assembly Outputs
 Description=
 TargetPrinter=printer-starboy
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
-OutputType1=Test Points For Assembly
-OutputName1=Test Point Report
+OutputType1=Assembly
+OutputName1=Assembly Drawings
 OutputDocumentPath1=
 OutputVariantName1=[No Variations]
 OutputDefault1=0
+PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 OutputType2=Pick Place
 OutputName2=Generates pick and place files
 OutputDocumentPath2=
 OutputVariantName2=[No Variations]
 OutputDefault2=0
-Configuration2_Name1=ForceUpdateSettings
-Configuration2_Item1=False
-Configuration2_Name2=OutputConfigurationParameter1
-Configuration2_Item2=Record=PickPlaceView|Units=Imperial|GenerateCSVFormat=False|GenerateTextFormat=True|ShowUnits=False|Separator=.|ExcludeFilterParam=False|IncludeVariations=False|IncludeStandardNoBOM=True|Filter= |FilterActive=False|YFlip=False|Column#1=Name:Designator,Fixed:True,Metric:False,Visible:True,Sort:None,Position:0|Column#2=Name:Comment,Fixed:True,Metric:False,Visible:True,Sort:None,Position:1|Column#3=Name:Layer,Fixed:True,Metric:False,Visible:True,Sort:None,Position:2|Column#4=Name:Footprint,Fixed:True,Metric:False,Visible:True,Sort:None,Position:3|Column#5=Name:Footprint Description,Fixed:True,Metric:False,Visible:False,Sort:None,Position:4|Column#6=Name:Center-X,Fixed:True,Metric:True,Visible:True,Sort:None,Position:5|Column#7=Name:Center-Y,Fixed:True,Metric:True,Visible:True,Sort:None,Position:6|Column#8=Name:Rotation,Fixed:True,Metric:False,Visible:True,Sort:None,Position:7|Column#9=Name:Description,Fixed:True,Metric:False,Visible:True,Sort:None,Position:8|Column#10=Name:ComponentKind,Fixed:True,Metric:False,Visible:False,Sort:None,Position:9|Column#11=Name:Height,Fixed:True,Metric:True,Visible:False,Sort:None,Position:10|Column#12=Name:Ref-X,Fixed:True,Metric:True,Visible:False,Sort:None,Position:11|Column#13=Name:Ref-Y,Fixed:True,Metric:True,Visible:False,Sort:None,Position:12|Column#14=Name:Pad-X,Fixed:True,Metric:True,Visible:False,Sort:None,Position:13|Column#15=Name:Pad-Y,Fixed:True,Metric:True,Visible:False,Sort:None,Position:14|Column#16=Name:Variation,Fixed:True,Metric:False,Visible:False,Sort:None,Position:15|Column#17=Name:IEC 61000-4-2 Air-Gap(+/- kV),Fixed:False,Metric:False,Visible:False,Sort:None,Position:43|Column#18=Name:ComponentLink3Description,Fixed:False,Metric:False,Visible:False,Sort:None,Position:27|Column#19=Name:REACH SVHC,Fixed:False,Metric:False,Visible:False,Sort:None,Position:71|Column#20=Name:Number of Terminations,Fixed:False,Metric:False,Visible:False,Sort:None,Position:61|Column#21=Name:Case Size/Dimension,Fixed:False,Metric:False,Visible:False,Sort:None,Position:21|Column#22=Name:HDMI,Fixed:False,Metric:False,Visible:False,Sort:None,Position:41|Column#23=Name:Power Rating,Fixed:False,Metric:False,Visible:False,Sort:None,Position:68|Column#24=Name:Datasheet Version,Fixed:False,Metric:False,Visible:False,Sort:None,Position:33|Column#25=Name:Package Quantity,Fixed:False,Metric:False,Visible:False,Sort:None,Position:62|Column#26=Name:Case Code (Metric),Fixed:False,Metric:False,Visible:False,Sort:None,Position:20|Column#27=Name:Differential Capacitance(pF),Fixed:False,Metric:False,Visible:False,Sort:None,Position:37|Column#28=Name:Length,Fixed:False,Metric:False,Visible:False,Sort:None,Position:50|Column#29=Name:Military Standard,Fixed:False,Metric:False,Visible:False,Sort:None,Position:55|Column#30=Name:RoHS Compliant,Fixed:False,Metric:False,Visible:False,Sort:None,Position:75|Column#31=Name:Max Operating Temperature,Fixed:False,Metric:False,Visible:False,Sort:None,Position:53|Column#32=Name:Min Operating Temperature,Fixed:False,Metric:False,Visible:False,Sort:None,Position:56|Column#33=Name:Thickness,Fixed:False,Metric:False,Visible:False,Sort:None,Position:83|Column#34=Name:IEC 61000-4-2 Air-Gap(Typ)(+/- kV),Fixed:False,Metric:False,Visible:False,Sort:None,Position:44|Column#35=Name:Manufacturer URL,Fixed:False,Metric:False,Visible:False,Sort:None,Position:52|Column#36=Name:Mount,Fixed:False,Metric:False,Visible:False,Sort:None,Position:57|Column#37=Name:Packaging,Fixed:False,Metric:False,Visible:False,Sort:None,Position:66|Column#38=Name:Contact Plating,Fixed:False,Metric:False,Visible:False,Sort:None,Position:30|Column#39=Name:Mounting Technology,Fixed:False,Metric:False,Visible:False,Sort:None,Position:58|Column#40=Name:Technology,Fixed:False,Metric:False,Visible:False,Sort:None,Position:80|Column#41=Name:Number of Pins,Fixed:False,Metric:False,Visible:False,Sort:None,Position:60|Column#42=Name:Case/Package,Fixed:False,Metric:False,Visible:False,Sort:None,Position:22|Column#43=Name:Eco-Plan,Fixed:False,Metric:False,Visible:False,Sort:None,Position:38|Column#44=Name:USB Super Speed,Fixed:False,Metric:False,Visible:False,Sort:None,Position:88|Column#45=Name:Width,Fixed:False,Metric:False,Visible:False,Sort:None,Position:91|Column#46=Name:ComponentLink3URL,Fixed:False,Metric:False,Visible:False,Sort:None,Position:28|Column#47=Name:Resistance,Fixed:False,Metric:False,Visible:False,Sort:None,Position:72|Column#48=Name:Breakdown Voltage(Min)(V),Fixed:False,Metric:False,Visible:False,Sort:None,Position:17|Column#49=Name:Voltage Rating (DC),Fixed:False,Metric:False,Visible:False,Sort:None,Position:90|Column#50=Name:USB Full Speed,Fixed:False,Metric:False,Visible:False,Sort:None,Position:86|Column#51=Name:Tolerance,Fixed:False,Metric:False,Visible:False,Sort:None,Position:84|Column#52=Name:ComponentLink2URL,Fixed:False,Metric:False,Visible:False,Sort:None,Position:26|Column#53=Name:IO Capacitance(Typ)(pF),Fixed:False,Metric:False,Visible:False,Sort:None,Position:47|Column#54=Name:Construction,Fixed:False,Metric:False,Visible:False,Sort:None,Position:29|Column#55=Name:1394 / Firewire,Fixed:False,Metric:False,Visible:False,Sort:None,Position:16|Column#56=Name:Rated Voltage,Fixed:False,Metric:False,Visible:False,Sort:None,Position:70|Column#57=Name:Size Code,Fixed:False,Metric:False,Visible:False,Sort:None,Position:78|Column#58=Name:Manufacturer,Fixed:False,Metric:False,Visible:False,Sort:None,Position:51|Column#59=Name:IO Leakage Current(nA),Fixed:False,Metric:False,Visible:False,Sort:None,Position:48|Column#60=Name:Resistance Tolerance,Fixed:False,Metric:False,Visible:False,Sort:None,Position:73|Column#61=Name:IEC 61000-4-2 Contact(+/- kV),Fixed:False,Metric:False,Visible:False,Sort:None,Position:45|Column#62=Name:PartNumber,Fixed:False,Metric:False,Visible:False,Sort:None,Position:67|Column#63=Name:Ctotal(Typ)(pF),Fixed:False,Metric:False,Visible:False,Sort:None,Position:31|Column#64=Name:Radiation Hardening,Fixed:False,Metric:False,Visible:False,Sort:None,Position:69|Column#65=Name:Datasheet URL,Fixed:False,Metric:False,Visible:False,Sort:None,Position:32|Column#66=Name:Lead Free,Fixed:False,Metric:False,Visible:False,Sort:None,Position:49|Column#67=Name:Termination,Fixed:False,Metric:False,Visible:False,Sort:None,Position:82|Column#68=Name:Tolerance (%),Fixed:False,Metric:False,Visible:False,Sort:None,Position:85|Column#69=Name:ComponentLink2Description,Fixed:False,Metric:False,Visible:False,Sort:None,Position:25|Column#70=Name:Serial ATA / eSATA,Fixed:False,Metric:False,Visible:False,Sort:None,Position:76|Column#71=Name:Max Power Dissipation,Fixed:False,Metric:False,Visible:False,Sort:None,Position:54|Column#72=Name:Temperature Coefficient,Fixed:False,Metric:False,Visible:False,Sort:None,Position:81|Column#73=Name:Resistor Type,Fixed:False,Metric:False,Visible:False,Sort:None,Position:74|Column#74=Name:IEC 61000-4-2 Contact(Typ)(+/- kV),Fixed:False,Metric:False,Visible:False,Sort:None,Position:46|Column#75=Name:Number of Channels,Fixed:False,Metric:False,Visible:False,Sort:None,Position:59|Column#76=Name:PackageDescription,Fixed:False,Metric:False,Visible:False,Sort:None,Position:63|Column#77=Name:ComponentLink1URL,Fixed:False,Metric:False,Visible:False,Sort:None,Position:24|Column#78=Name:SubFamily,Fixed:False,Metric:False,Visible:False,Sort:None,Position:79|Column#79=Name:Capacitance,Fixed:False,Metric:False,Visible:False,Sort:None,Position:18|Column#80=Name:PackageReference,Fixed:False,Metric:False,Visible:False,Sort:None,Position:64|Column#81=Name:Case Code (Imperial),Fixed:False,Metric:False,Visible:False,Sort:None,Position:19|Column#82=Name:Dielectric,Fixed:False,Metric:False,Visible:False,Sort:None,Position:36|Column#83=Name:Series,Fixed:False,Metric:False,Visible:False,Sort:None,Position:77|Column#84=Name:Halogen Free,Fixed:False,Metric:False,Visible:False,Sort:None,Position:40|Column#85=Name:USB High Speed,Fixed:False,Metric:False,Visible:False,Sort:None,Position:87|Column#86=Name:ComponentLink1Description,Fixed:False,Metric:False,Visible:False,Sort:None,Position:23|Column#87=Name:Features,Fixed:False,Metric:False,Visible:False,Sort:None,Position:39|Column#88=Name:Voltage Rating,Fixed:False,Metric:False,Visible:False,Sort:None,Position:89|Column#89=Name:Height,Fixed:False,Metric:False,Visible:False,Sort:None,Position:42|Column#90=Name:DatasheetVersion,Fixed:False,Metric:False,Visible:False,Sort:None,Position:34|Column#91=Name:Depth,Fixed:False,Metric:False,Visible:False,Sort:None,Position:35|Column#92=Name:PackageVersion,Fixed:False,Metric:False,Visible:False,Sort:None,Position:65|DocumentPath=C:\Users\daniel\Documents\GitHub\Altium-Public\isg_cena_chip_wirebonding_board\isg_cena_chip_wirebonding_board.PcbDoc
-OutputType3=Assembly
-OutputName3=Assembly Drawings
+OutputType3=Test Points For Assembly
+OutputName3=Test Point Report
 OutputDocumentPath3=
 OutputVariantName3=[No Variations]
 OutputDefault3=0
-PageOptions3=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 
 [OutputGroup5]
 Name=Fabrication Outputs
@@ -453,18 +475,6 @@ OutputDocumentPath1=
 OutputVariantName1=[No Variations]
 OutputDefault1=0
 PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-Configuration1_Name1=ColumnNameFormat
-Configuration1_Item1=CaptionAsName
-Configuration1_Name2=ForceUpdateSettings
-Configuration1_Item2=False
-Configuration1_Name3=General
-Configuration1_Item3=OpenExported=False|AddToProject=False|ReportBOMViolationsInMessages=False|ForceFit=False|NotFitted=False|Database=False|DatabasePriority=False|IncludePcbData=False|IncludeVaultData=False|IncludeCloudData=False|IncludeDocumentData=True|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=|TemplateVaultGuid=|TemplateItemGuid=|TemplateRevisionGuid=|BatchMode=0|FormWidth=1200|FormHeight=710|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=USD|SolutionsPerItem=1|SuppliersPerSolution=1|ViewType=1|UseDirectApi=False|BomSetName=
-Configuration1_Name4=GroupOrder
-Configuration1_Item4=Comment=True|Footprint=True
-Configuration1_Name5=SortOrder
-Configuration1_Item5=Designator=Up|Comment=Up|Footprint=Up
-Configuration1_Name6=VisibleOrder
-Configuration1_Item6=Comment=120|Description=120|Designator=120|Footprint=120|LibRef=120|Quantity=120
 OutputType2=BOM_ReportCompare
 OutputName2=BOM Compare
 OutputDocumentPath2=
