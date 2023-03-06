@@ -228,7 +228,7 @@ GenerateClassCluster=0
 DocumentUniqueId=AHMDNBOC
 
 [Document12]
-DocumentPath=adjustable_biasing_with_jumper.SchDoc
+DocumentPath=adjustable_biasing_pots.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
