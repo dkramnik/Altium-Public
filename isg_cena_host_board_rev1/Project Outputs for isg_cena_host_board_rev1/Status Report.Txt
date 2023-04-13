@@ -1,0 +1,42 @@
+Output: Gerber Files
+Type  : Gerber
+From  : Variant [[No Variations]] of Project [isg_cena_host_board_rev1.PrjPcb]
+   Generated File[isg_cena_host_board_rev1.GTO]
+   Generated File[isg_cena_host_board_rev1.GTP]
+   Generated File[isg_cena_host_board_rev1.GTS]
+   Generated File[isg_cena_host_board_rev1.GTL]
+   Generated File[isg_cena_host_board_rev1.G1]
+   Generated File[isg_cena_host_board_rev1.G2]
+   Generated File[isg_cena_host_board_rev1.G3]
+   Generated File[isg_cena_host_board_rev1.G4]
+   Generated File[isg_cena_host_board_rev1.GBL]
+   Generated File[isg_cena_host_board_rev1.GBS]
+   Generated File[isg_cena_host_board_rev1.GBP]
+   Generated File[isg_cena_host_board_rev1.GBO]
+   Generated File[isg_cena_host_board_rev1.GM1]
+   Generated File[isg_cena_host_board_rev1.GM2]
+   Generated File[isg_cena_host_board_rev1.GM3]
+   Generated File[isg_cena_host_board_rev1.GM4]
+   Generated File[isg_cena_host_board_rev1.GM5]
+   Generated File[isg_cena_host_board_rev1.GM6]
+   Generated File[isg_cena_host_board_rev1.GM7]
+   Generated File[isg_cena_host_board_rev1.GM8]
+   Generated File[isg_cena_host_board_rev1.GM9]
+   Generated File[isg_cena_host_board_rev1.GM13]
+   Generated File[isg_cena_host_board_rev1.GM15]
+   Generated File[isg_cena_host_board_rev1.GM16]
+   Generated File[isg_cena_host_board_rev1.GM30]
+   Generated File[isg_cena_host_board_rev1.GM40]
+   Generated File[isg_cena_host_board_rev1.GPT]
+   Generated File[isg_cena_host_board_rev1.GPB]
+   Generated File[isg_cena_host_board_rev1.GD1]
+   Generated File[isg_cena_host_board_rev1.GG1]
+   Generated File[isg_cena_host_board_rev1.RUL]
+   Generated File[isg_cena_host_board_rev1.EXTREP]
+   Generated File[isg_cena_host_board_rev1.REP]
+
+
+Files Generated   : 33
+Documents Printed : 0
+
+Finished Output Generation At 11:36:26 PM On 4/12/2023

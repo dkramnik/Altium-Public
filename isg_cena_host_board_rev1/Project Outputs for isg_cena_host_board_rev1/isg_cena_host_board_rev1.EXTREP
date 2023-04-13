@@ -1,0 +1,39 @@
+------------------------------------------------------------------------------------------
+Gerber File Extension Report For: isg_cena_host_board_rev1.GBR   4/12/2023  11:36:20 PM
+------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------
+Layer Extension     Layer Description                      
+------------------------------------------------------------------------------------------
+.GTO                Top Overlay                             
+.GTP                Top Paste                               
+.GTS                Top Solder                              
+.GTL                Top Layer                               
+.G1                 MidLayer 1                              
+.G2                 MidLayer 2                              
+.G3                 MidLayer 3                              
+.G4                 MidLayer 4                              
+.GBL                Bottom Layer                            
+.GBS                Bottom Solder                           
+.GBP                Bottom Paste                            
+.GBO                Bottom Overlay                          
+.GM1                Mechanical 1                            
+.GM2                Top 3D Body                             
+.GM3                Bottom 3D Body                          
+.GM4                Top Courtyard                           
+.GM5                Bottom Courtyard                        
+.GM6                Top Assembly                            
+.GM7                Bottom Assembly                         
+.GM8                Top Component Center                    
+.GM9                Bottom Component Center                 
+.GM13               Mechanical 13                           
+.GM15               Mechanical 15                           
+.GM16               Mechanical 16                           
+.GM30               Mechanical 30                           
+.GM40               Mechanical 40                           
+.GPT                Top Pad Master                          
+.GPB                Bottom Pad Master                       
+.GD1                Drill Drawing                           
+.GG1                Drill Guide                             
+------------------------------------------------------------------------------------------
